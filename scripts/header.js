@@ -6,7 +6,6 @@ class Header extends HTMLElement{
 	connectedCallback(){
 		this.innerHTML =
 		`
-
 		<head>
 			<meta charset="utf-8">
 			<meta name = "viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +18,15 @@ class Header extends HTMLElement{
 		  			margin-left: auto;
 		  			margin-right: auto;
 				}
+				body{
+    				background-color:#3B71CA;
+				}
 			</style>
 
 		</head>
 		<body>
 
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 			<div class="container-fluid">
 				<ul class="navbar-nav">
 					<li class="nav-item">
@@ -46,6 +48,7 @@ class Header extends HTMLElement{
 				</ul>
 			</div>
 		</nav>
+
 		`;
 
 	}
