@@ -19,7 +19,7 @@ class Header extends HTMLElement{
 		  			margin-right: auto;
 				}
 				body{
-    				background-color:#3B71CA;
+    				background-color:#9FA6B2;
 				}
 			</style>
 
@@ -41,10 +41,6 @@ class Header extends HTMLElement{
 					<li class="nav-item">
 						<a class = "nav-link"href="hobbies.html">hobbies</a>
 					</li>
-					<li class="nav-item">
-						<a class = "nav-link"href="service.html">service</a>
-					</li>
-			
 				</ul>
 			</div>
 		</nav>
